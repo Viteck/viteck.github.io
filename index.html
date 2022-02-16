@@ -1,0 +1,456 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Witold Krzysztofek - Portfolio 2020</title>
+		<meta />
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<img src="images/header_name.png" />
+			</header>
+			<nav class="menu">
+				<ul>
+					<li><a href="">home</a></li>/
+					<li><a href="#about">about</a></li>/
+					<li><a href="#skills">skills</a></li>/
+					<li><a href="#portfolio">portfolio</a></li>/
+					<li><a href="#contact">contact</a></li>
+				</ul>
+			</nav>
+			<div class="ani"></div>
+			<section id="about">
+				<h1><span class="section-line"><span class="section-back">about</span></span></h1>
+					<p>I am a creative, artistic and ambitious Graphic Designer with a talent for thinking outside the box and coming up with innovative ideas and designs. Having worked in the design and print industry for over 5 years in Poland, I moved to the UK where I started with ad-hoc freelance work. I then got involved with an e-learning company, taking part in a short-term project aimed at creating high-quality vector illustrations. Eventually, I found employment within a signage company and have been working for them to this day. Quite recently, I have developed an interest for digital design and started to learn HTML, CSS and JavaScript. You can see the first results of my new skills right here - in the form of my own portfolio website. I am now looking for new opportunities that would enable me to fully maximise my potential and take my career to the next level.
+					</p>
+			</section>
+			<section id="skills">
+				<h1><span class="section-line"><span class="section-back">skills</span></span></h1>
+						<ul>
+							<li>Adobe Photoshop</li>-
+							<li>Adobe Illustrator</li>-
+							<li>Adobe InDesign</li>-
+							<li>Corel Draw</li>-
+							<li>SignLab</li>-
+							<li>SketchUp</li>-
+							<li>HTML5 / CSS3</li>-
+							<li>JavaScript</li>-
+							<li>MS Office</li>
+						</ul>
+			</section>
+			<section id="portfolio">
+				<h1><span class="section-line"><span class="section-back">portfolio</span></span></h1>
+				<div id="portfolio-group">
+						<div class="sample pic1" id="foto1">
+						<p class="overlay">photography</p>
+						</div>
+						<div class="sample pic2" onclick="document.getElementById('modal-illustration').style.display='initial'">
+						<p class="overlay long-text">technical illustrations</p>
+						</div>
+						<div class="sample pic3" onclick="document.getElementById('modal-banner').style.display='initial'"> 
+						<p class="overlay">banners</p>
+						</div>
+						<div class="sample pic4 second" onclick="document.getElementById('modal-logo').style.display='initial'">
+						<p class="overlay">logos</p>
+						</div>
+						<div class="sample pic5" onclick="document.getElementById('modal-leaflet').style.display='initial'">
+						<p class="overlay">leaflets</p>
+						</div>
+						<div class="sample pic6" onclick="document.getElementById('modal-other').style.display='initial'">
+						<p class="overlay">others</p>
+						</div>
+					<!-- PRINT MODAL BOX -->
+					<div id="modal-print" class="container-display">
+					<div class="modal_back2" onclick="document.getElementById('modal-print').style.display='none'"></div>
+					<div class="slideshow-container">
+							<table class="tab">
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_01.jpg"/>
+									<p class="author">"Simply nature" - picture taken with a Canon DIGITAL IXUS 75</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_02.jpg"/>
+									<p class="author">"Hungry butterfly" - picture taken with a Canon EOS 750D</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_03.jpg"/>
+									<p class="author">"Unconditional love" - picture taken with a Canon EOS 750D</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_04.jpg"/>
+									<p class="author">"Lazy mother cat" - picture taken with a Canon DIGITAL IXUS 75</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_05.jpg"/>
+									<p class="author">"Innocent little one" - picture taken with a Canon DIGITAL IXUS 75</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_06.jpg"/>
+									<p class="author">"Dandelion clock" - picture taken with a Canon DIGITAL IXUS 75</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_07.jpg"/>
+									<p class="author">"Autumn 2018" - picture taken with a Canon EOS 750D</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_08.jpg"/>
+									<p class="author">"Flying bees" - picture taken with a Canon EOS 750D</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_09.jpg"/>
+									<p class="author">"Hot bath in the wax" - picture taken with a Canon IXUS 125 HS</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_10.jpg"/>
+									<p class="author">"Weird green wine" - picture taken with a Canon IXUS 125 HS</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_11.jpg"/>
+									<p class="author">"Fireworks" - picture taken with a Canon DIGITAL IXUS 75</p>
+								</td>
+								<td class="mySlides slide-window">
+									<img src="images/photo/photo_12.jpg"/>
+									<p class="author">"One late night in Barcelona" - picture taken with a Canon EOS 750D</p>
+								</td>
+							</table>
+							<a class="prev" onclick="plusSlides(-1)"></a>
+							<a class="next" onclick="plusSlides(1)"></a>
+					<div class="dot-container">
+						<img src="images/photo/photo_01.jpg" class="dot" onclick="currentSlide(1)"/>
+						<img src="images/photo/photo_02.jpg" class="dot" onclick="currentSlide(2)"/>
+						<img src="images/photo/photo_03.jpg" class="dot" onclick="currentSlide(3)"/>
+						<img src="images/photo/photo_04.jpg" class="dot" onclick="currentSlide(4)"/>
+						<img src="images/photo/photo_05.jpg" class="dot" onclick="currentSlide(5)"/>
+						<img src="images/photo/photo_06.jpg" class="dot" onclick="currentSlide(6)"/>
+						<img src="images/photo/photo_07.jpg" class="dot" onclick="currentSlide(7)"/>
+						<img src="images/photo/photo_08.jpg" class="dot" onclick="currentSlide(8)"/>
+						<img src="images/photo/photo_09.jpg" class="dot" onclick="currentSlide(9)"/>
+						<img src="images/photo/photo_10.jpg" class="dot" onclick="currentSlide(10)"/>
+						<img src="images/photo/photo_11.jpg" class="dot" onclick="currentSlide(11)"/>
+						<img src="images/photo/photo_12.jpg" class="dot" onclick="currentSlide(12)"/>
+					</div>
+					<span class="close" onclick="document.getElementById('modal-print').style.display='none'">&times;</span>
+					</div>
+					</div>
+					<!-- PRINT MODAL BOX END -->
+					
+					<!-- ILLUSTRATION MODAL BOX -->
+					<div id="modal-illustration" class="container-display">
+					<div class="modal_back2" onclick="document.getElementById('modal-illustration').style.display='none'"></div>
+					<div class="slideshow-container">
+							<table class="tab">
+								<td class="mySlides2 slide-window">
+									<img src="images/tech/tech_01.jpg"/>
+									<p class="author">Vector illustration of technical equipment - Example 1</p>
+								</td>
+								<td class="mySlides2 slide-window">
+									<img src="images/tech/tech_02.jpg"/>
+									<p class="author">Vector illustration of technical equipment - Example 2</p>
+								</td>
+								<td class="mySlides2 slide-window">
+									<img src="images/tech/tech_03.jpg"/>
+									<p class="author">Vector illustration of technical equipment - Example 3</p>
+								</td>
+								<td class="mySlides2 slide-window">
+									<img src="images/tech/tech_04.jpg"/>
+									<p class="author">Vector illustration of technical equipment - Example 4</p>
+								</td>
+								<td class="mySlides2 slide-window">
+									<img src="images/tech/tech_05.jpg"/>
+									<p class="author">Vector illustration of technical equipment - Example 5</p>
+								</td>
+								<td class="mySlides2 slide-window">
+									<img src="images/tech/tech_06.jpg"/>
+									<p class="author">Vector illustration of technical equipment - Example 6</p>
+								</td>
+								<td class="mySlides2 slide-window">
+									<img src="images/tech/tech_07.jpg"/>
+									<p class="author">Vector illustration of technical equipment - Example 7</p>
+								</td>
+								<td class="mySlides2 slide-window">
+									<img src="images/tech/tech_08.jpg"/>
+									<p class="author">Vector illustration of technical equipment - Example 8</p>
+								</td>
+							</table>
+							<a class="prev" onclick="plusSlides2(-1)"></a>
+							<a class="next" onclick="plusSlides2(1)"></a>
+					<div class="dot-container">
+						<img src="images/tech/tech_01.jpg" class="dot2" onclick="currentSlide2(1)"/>
+						<img src="images/tech/tech_02.jpg" class="dot2" onclick="currentSlide2(2)"/>
+						<img src="images/tech/tech_03.jpg" class="dot2" onclick="currentSlide2(3)"/>
+						<img src="images/tech/tech_04.jpg" class="dot2" onclick="currentSlide2(4)"/>
+						<img src="images/tech/tech_05.jpg" class="dot2" onclick="currentSlide2(5)"/>
+						<img src="images/tech/tech_06.jpg" class="dot2" onclick="currentSlide2(6)"/>
+						<img src="images/tech/tech_07.jpg" class="dot2" onclick="currentSlide2(7)"/>
+						<img src="images/tech/tech_08.jpg" class="dot2" onclick="currentSlide2(8)"/>
+					</div>
+					<span class="close" onclick="document.getElementById('modal-illustration').style.display='none'">&times;</span>
+					</div>
+					</div>
+					<!-- ILLUSTRATION MODAL BOX END -->
+					
+					<!-- BANNER MODAL BOX -->
+					<div id="modal-banner" class="container-display">
+					<div class="modal_back2" onclick="document.getElementById('modal-banner').style.display='none'"></div>
+					<div class="slideshow-container">
+							<table class="tab">
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_01.jpg"/>
+									<p class="author">Banner for "CKR" High School</p>
+								</td>
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_02.jpg"/>
+									<p class="author">Banner for "Kuznia Mielecka" Blacksmith</p>
+								</td>
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_03.jpg"/>
+									<p class="author">Roll up banner for "Bella" Wedding Dresses Salon</p>
+								</td>
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_04.jpg"/>
+									<p class="author">Roll up banner for "Color&Nails" Beauty Salon</p>
+								</td>
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_05.jpg"/>
+									<p class="author">Banner for "Profit" Insurance Company</p>
+								</td>
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_06.jpg"/>
+									<p class="author">Banner for "Drew-Chem" Bathroom Tiles Store</p>
+								</td>
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_07.jpg"/>
+									<p class="author">Banner for "Accent" Language School</p>
+								</td>
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_08.jpg"/>
+									<p class="author">Banner for "Moto-Raj" Car Service</p>
+								</td>
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_09.jpg"/>
+									<p class="author">Banner for "Centrum Ubezpieczen" Insurance Company</p>
+								</td>
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_10.jpg"/>
+									<p class="author">Banner for "Chemal" Decoration Centre</p>
+								</td>
+								<td class="mySlides3 slide-window">
+									<img src="images/banner/banner_11.jpg"/>
+									<p class="author">Banner for "Telepizza" Pizzeria</p>
+								</td>
+							</table>
+							<a class="prev" onclick="plusSlides3(-1)"></a>
+							<a class="next" onclick="plusSlides3(1)"></a>
+					<div class="dot-container">
+						<img src="images/banner/banner_01.jpg" class="dot3" onclick="currentSlide3(1)"/>
+						<img src="images/banner/banner_02.jpg" class="dot3" onclick="currentSlide3(2)"/>
+						<img src="images/banner/banner_03.jpg" class="dot3" onclick="currentSlide3(3)"/>
+						<img src="images/banner/banner_04.jpg" class="dot3" onclick="currentSlide3(4)"/>
+						<img src="images/banner/banner_05.jpg" class="dot3" onclick="currentSlide3(5)"/>
+						<img src="images/banner/banner_06.jpg" class="dot3" onclick="currentSlide3(6)"/>
+						<img src="images/banner/banner_07.jpg" class="dot3" onclick="currentSlide3(7)"/>
+						<img src="images/banner/banner_08.jpg" class="dot3" onclick="currentSlide3(8)"/>
+						<img src="images/banner/banner_09.jpg" class="dot3" onclick="currentSlide3(9)"/>
+						<img src="images/banner/banner_10.jpg" class="dot3" onclick="currentSlide3(10)"/>
+						<img src="images/banner/banner_11.jpg" class="dot3" onclick="currentSlide3(11)"/>
+					</div>
+					<span class="close" onclick="document.getElementById('modal-banner').style.display='none'">&times;</span>
+					</div>
+					</div>
+					<!-- BANNER MODAL BOX END -->
+					
+					<!-- LOGO MODAL BOX -->
+					<div id="modal-logo" class="container-display">
+					<div class="modal_back2" onclick="document.getElementById('modal-logo').style.display='none'"></div>
+					<div class="slideshow-container">
+							<table class="tab">
+								<td class="mySlides4 slide-window">
+									<img src="images/logo/logo_01.jpg"/>
+									<p class="author">Logo designed for "Leverage" - A blackjack website</p>
+								</td>
+								<td class="mySlides4 slide-window">
+									<img src="images/logo/logo_02.jpg"/>
+									<p class="author">Logo designed for "Jio Chicken" - A takeaway restaurant</p>
+								</td>
+								<td class="mySlides4 slide-window">
+									<img src="images/logo/logo_03.jpg"/>
+									<p class="author">Logo designed for "Family Entertainment Center"</p>
+								</td>
+								<td class="mySlides4 slide-window">
+									<img src="images/logo/logo_04.jpg"/>
+									<p class="author">Logo designed for "Think Big" - A business company</p>
+								</td>
+								<td class="mySlides4 slide-window">
+									<img src="images/logo/logo_05.jpg"/>
+									<p class="author">Logo designed for "Puszkopol" - A tin company</p>
+								</td>
+								<td class="mySlides4 slide-window">
+									<img src="images/logo/logo_06.jpg"/>
+									<p class="author">Logo designed for "GOK" - A cultural centre</p>
+								</td>
+							</table>
+							<a class="prev" onclick="plusSlides4(-1)"></a>
+							<a class="next" onclick="plusSlides4(1)"></a>
+					<div class="dot-container">
+						<img src="images/logo/logo_01.jpg" class="dot4" onclick="currentSlide4(1)"/>
+						<img src="images/logo/logo_02.jpg" class="dot4" onclick="currentSlide4(2)"/>
+						<img src="images/logo/logo_03.jpg" class="dot4" onclick="currentSlide4(3)"/>
+						<img src="images/logo/logo_04.jpg" class="dot4" onclick="currentSlide4(4)"/>
+						<img src="images/logo/logo_05.jpg" class="dot4" onclick="currentSlide4(5)"/>
+						<img src="images/logo/logo_06.jpg" class="dot4" onclick="currentSlide4(6)"/>
+					</div>
+					<span class="close" onclick="document.getElementById('modal-logo').style.display='none'">&times;</span>
+					</div>
+					</div>
+					<!-- LOGO MODAL BOX END -->
+					
+					<!-- LEAFLET MODAL BOX -->
+					<div id="modal-leaflet" class="container-display">
+					<div class="modal_back2" onclick="document.getElementById('modal-leaflet').style.display='none'"></div>
+					<div class="slideshow-container">
+							<table class="tab">
+								<td class="mySlides5 slide-window">
+									<img src="images/leaflet/leaflet_01.jpg"/>
+									<p class="author">Folded leaflet menu for "Klub 13" Restaurant - Front</p>
+								</td>
+								<td class="mySlides5 slide-window">
+									<img src="images/leaflet/leaflet_02.jpg"/>
+									<p class="author">Folded leaflet menu for "Klub 13" Restaurant - Back</p>
+								</td>
+								<td class="mySlides5 slide-window">
+									<img src="images/leaflet/leaflet_03.jpg"/>
+									<p class="author">Poster for "Niepubliczne Gimnazjum" School</p>
+								</td>
+								<td class="mySlides5 slide-window">
+									<img src="images/leaflet/leaflet_04.jpg"/>
+									<p class="author">Double-sided leaflet for "Stanford Estates" Estate Agency - Issue 1</p>
+								</td>
+								<td class="mySlides5 slide-window">
+									<img src="images/leaflet/leaflet_05.jpg"/>
+									<p class="author">Double-sided leaflet for "Stanford Estates" Estate Agency - Issue 2</p>
+								</td>
+								<td class="mySlides5 slide-window">
+									<img src="images/leaflet/leaflet_06.jpg"/>
+									<p class="author">Double-sided leaflet for "Stanford Estates" Estate Agency - Issue 3</p>
+								</td>
+								<td class="mySlides5 slide-window">
+									<img src="images/leaflet/leaflet_07.jpg"/>
+									<p class="author">Leaflet for "Fejs Shop" Women's Boutique</p>
+								</td>
+								<td class="mySlides5 slide-window">
+									<img src="images/leaflet/leaflet_08.jpg"/>
+									<p class="author">Leaflet for "Bar Social" Restaurant</p>
+								</td>
+								<td class="mySlides5 slide-window">
+									<img src="images/leaflet/leaflet_09.jpg"/>
+									<p class="author">Flyer for "G1 Goldmine" Horse Breeding Company</p>
+								</td>
+								<td class="mySlides5 slide-window">
+									<img src="images/leaflet/leaflet_10.jpg"/>
+									<p class="author">Flyer for "Icebox" Jewellery Shop</p>
+								</td>
+							</table>
+							<a class="prev" onclick="plusSlides5(-1)"></a>
+							<a class="next" onclick="plusSlides5(1)"></a>
+					<div class="dot-container">
+						<img src="images/leaflet/leaflet_01.jpg" class="dot5" onclick="currentSlide5(1)"/>
+						<img src="images/leaflet/leaflet_02.jpg" class="dot5" onclick="currentSlide5(2)"/>
+						<img src="images/leaflet/leaflet_03.jpg" class="dot5" onclick="currentSlide5(3)"/>
+						<img src="images/leaflet/leaflet_04.jpg" class="dot5" onclick="currentSlide5(4)"/>
+						<img src="images/leaflet/leaflet_05.jpg" class="dot5" onclick="currentSlide5(5)"/>
+						<img src="images/leaflet/leaflet_06.jpg" class="dot5" onclick="currentSlide5(6)"/>
+						<img src="images/leaflet/leaflet_07.jpg" class="dot5" onclick="currentSlide5(7)"/>
+						<img src="images/leaflet/leaflet_08.jpg" class="dot5" onclick="currentSlide5(8)"/>
+						<img src="images/leaflet/leaflet_09.jpg" class="dot5" onclick="currentSlide5(9)"/>
+						<img src="images/leaflet/leaflet_10.jpg" class="dot5" onclick="currentSlide5(10)"/>
+					</div>
+					<span class="close" onclick="document.getElementById('modal-leaflet').style.display='none'">&times;</span>
+					</div>
+					</div>
+					<!-- LEAFLET MODAL BOX END -->
+					
+					<!-- OTHER MODAL BOX -->
+					<div id="modal-other" class="container-display">
+					<div class="modal_back2" onclick="document.getElementById('modal-other').style.display='none'"></div>
+					<div class="slideshow-container">
+							<table class="tab">
+								<td class="mySlides6 slide-window">
+									<img src="images/other/other_01.jpg"/>
+									<p class="author">Light box for "Klub 13" Restaurant</p>
+								</td>
+								<td class="mySlides6 slide-window">
+									<img src="images/other/other_02.jpg"/>
+									<p class="author">Logo and packaging design for "neurON" Coffee</p>
+								</td>
+								<td class="mySlides6 slide-window">
+									<img src="images/other/other_03.jpg"/>
+									<p class="author">Light box for "Ego" Hairdressing Salon - Issue 1</p>
+								</td>
+								<td class="mySlides6 slide-window">
+									<img src="images/other/other_04.jpg"/>
+									<p class="author">Light box for "Ego" Hairdressing Salon - Issue 2</p>
+								</td>
+								<td class="mySlides6 slide-window">
+									<img src="images/other/other_05.jpg"/>
+									<p class="author">Car design for "Miastova" Restaurant - Side view</p>
+								</td>
+								<td class="mySlides6 slide-window">
+									<img src="images/other/other_06.jpg"/>
+									<p class="author">Car design for "Miastova" Restaurant - Rear view</p>
+								</td>
+								<td class="mySlides6 slide-window">
+									<img src="images/other/other_07.jpg"/>
+									<p class="author">Book cover - Front view</p>
+								</td>
+								<td class="mySlides6 slide-window">
+									<img src="images/other/other_08.jpg"/>
+									<p class="author">Book cover - Overall view</p>
+								</td>
+								<td class="mySlides6 slide-window">
+									<img src="images/other/other_09.png"/>
+									<p class="author">Floor decal designed for a trade show</p>
+								</td>
+							</table>
+							<a class="prev" onclick="plusSlides6(-1)"></a>
+							<a class="next" onclick="plusSlides6(1)"></a>
+					<div class="dot-container">
+						<img src="images/other/other_01.jpg" class="dot6" onclick="currentSlide6(1)"/>
+						<img src="images/other/other_02.jpg" class="dot6" onclick="currentSlide6(2)"/>
+						<img src="images/other/other_03.jpg" class="dot6" onclick="currentSlide6(3)"/>
+						<img src="images/other/other_04.jpg" class="dot6" onclick="currentSlide6(4)"/>
+						<img src="images/other/other_05.jpg" class="dot6" onclick="currentSlide6(5)"/>
+						<img src="images/other/other_06.jpg" class="dot6" onclick="currentSlide6(6)"/>
+						<img src="images/other/other_07.jpg" class="dot6" onclick="currentSlide6(7)"/>
+						<img src="images/other/other_08.jpg" class="dot6" onclick="currentSlide6(8)"/>
+						<img src="images/other/other_09.png" class="dot6" onclick="currentSlide6(9)"/>
+					</div>
+					<span class="close" onclick="document.getElementById('modal-other').style.display='none'">&times;</span>
+					</div>
+					</div>
+					<!-- OTHER MODAL BOX END -->
+				</div>
+			</section>
+			<section id="contact">
+				<h1><span class="section-line"><span class="section-back">contact</span></span></h1>
+				<h2>Witold Krzysztofek:</h2>
+				<p><a id="mail" href="mailto:witold.krzysztofek@gmail.com">witold.krzysztofek@gmail.com</a></p>
+				<a id="linked-logo" href="https://www.linkedin.com/in/witoldkrzysztofek/" title="It opens in a new tab or window" target="_blank">
+					<svg x="0px" y="0px" viewbox="0 0 23.9 23.9">
+						<path class="st0" d="M0,2c0-1.1,0.9-2,2-2h19.9c1.1,0,2,0.9,2,2v19.9c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2z"/>
+						<circle class="st1" cx="5.3" cy="5.3" r="2.2"/>
+						<rect x="3.5" y="9" class="st1" width="3.5" height="11.5"/>
+						<path class="st1" d="M9.5,9.2h3.2v1.6C13.2,9.9,14.4,9,16.2,9c3.4,0,4.3,1.9,4.3,5.3v6.3H17V15c0-1.9-0.5-3-1.7-3
+						c-1.6,0-2.3,1.2-2.3,3v5.6H9.5V9.2z"/>
+					</svg>
+				</a>
+			</section>
+			<a href="#wrapper" class="go-top"><p>&#8679;</p></a>
+			<footer>
+			<p>&copy; 2020 Witold Krzysztofek</p>
+			</footer>
+		</div>
+		<script type="text/javascript" src="js/javascript.js"></script>
+		<script type="text/javascript" src="js/javagallery.js"></script>
+	</body>
+</html>
